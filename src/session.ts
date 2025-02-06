@@ -5,7 +5,7 @@ export interface ConversationSession {
   currentDestination: string | null;
   currentTopic: string | null;
   lastInteraction: Date;
-  // Puedes agregar más propiedades (ej. fechas de viaje, presupuesto, etc.) según sea necesario.
+  
 }
 
 /**

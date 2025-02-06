@@ -70,7 +70,6 @@ export class ClimateAgent {
 
 /**
  * Agente simulado para la búsqueda de vuelos.
- * En una aplicación real se integraría una API externa (ej. Skyscanner, Amadeus).
  */
 export class FlightAgent {
   async execute(input: { destination: string; message: string; sessionId: string }): Promise<string> {
@@ -91,7 +90,6 @@ export class FlightAgent {
 
 /**
  * Agente simulado para la planificación de itinerarios.
- * Se devuelve un itinerario básico. En una versión ampliada se podría generar uno personalizado.
  */
 export class ItineraryAgent {
   async execute(input: { destination: string; message: string; sessionId: string }): Promise<string> {
